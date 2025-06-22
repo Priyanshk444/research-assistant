@@ -68,5 +68,5 @@ public class ResearchRequest {
 ## Author
 Priyansh Kumar
 
-For any issues or questions, please contact [[your-email@example.com](mailto\:your-email@example.com)] or open an issue on GitHub.
+For any issues or questions, please contact [[priyansh.kumar.dev@gmail.com](mailto\:priyansh.kumar.dev@gmail.com)] or open an issue on GitHub.
 
