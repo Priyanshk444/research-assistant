@@ -1,5 +1,14 @@
 # Research Assistant Chrome Extension
 
+### Selecting and Summarizing Text
+![Summarize Text](screenshots\Screenshot 2025-06-22 165607.png)
+
+### ✍️ Writing and Saving Notes
+![Notes Section](screenshots\Screenshot 2025-06-22 165634.png)
+
+### ⚙️ Extension Side Panel
+![Side Panel](screenshots\Screenshot 2025-06-22 165536.png)
+
 ## Overview
 
 The Research Assistant is a Chrome extension designed to enhance your online research experience. With this tool, you can select any text on a webpage and perform three key actions:
