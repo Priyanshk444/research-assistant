@@ -19,7 +19,7 @@
         "service_worker" : "background.js"
     },
     "host_permissions" : [
-        "http://localhost:8080/*",
+        "https://research-assistant-production-5563.up.railway.app/*",
         "<all_urls>"
     ],
     "content_security_policy": {

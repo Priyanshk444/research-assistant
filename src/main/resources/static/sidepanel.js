@@ -56,7 +56,7 @@ async function extrasText() {
             return;
         }
 
-        const response = await fetch("http://localhost:8080/api/research/process", {
+        const response = await fetch("https://research-assistant-production-5563.up.railway.app/api/research/process", {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({content: result, operation: 'suggest'})
@@ -88,7 +88,7 @@ async function prerequisiteText() {
             return;
         }
 
-        const response = await fetch("http://localhost:8080/api/research/process", {
+        const response = await fetch("https://research-assistant-production-5563.up.railway.app/api/research/process", {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({content: result, operation: 'prerequisite'})
