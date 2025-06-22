@@ -12,7 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class ResearchService {
 	
 	@Value("${gemini.api.url}")
-	private String gemeiniApiUrl;
+	private String geminiApiBaseUrl;
 	
 	@Value("${gemini.api.key}")
 	private String geminiApiKey;
@@ -34,8 +34,12 @@ public class ResearchService {
 		Map<String, Object> requestBody = Map.of("contents",
 				new Object[] { Map.of("parts", new Object[] { Map.of("text", prompt) }) });
 		
+		String finalUrl = geminiApiBaseUrl + "?key=" + geminiApiKey;
+		// System.out.println("Final Gemini URL: " + finalUrl);
+
+		
 		String response = webClient.post()
-				.uri(gemeiniApiUrl + geminiApiKey)
+				.uri(finalUrl)
 				.bodyValue(requestBody)
 				.retrieve()
 				.bodyToMono(String.class)
