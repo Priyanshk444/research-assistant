@@ -26,7 +26,7 @@ Additionally, the extension allows users to write and save notes locally within 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/research-assistant.git
+   git clone https://github.com/Priyanshk444/research-assistant.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -35,7 +35,7 @@ Additionally, the extension allows users to write and save notes locally within 
 3. Install Chrome Extension:
    - Open Chrome and go to `chrome://extensions/`
    - Enable **Developer mode** (toggle on the top right corner).
-   - Click **Load unpacked** and select the `extension` folder inside the project.
+   - Click **Load unpacked** and select the `src/main/resorces/static` folder inside the project.
 
 ## Configuration
 
@@ -43,7 +43,7 @@ Update the `application.properties` file with your API key:
 
 ```properties
 spring.application.name=research-assistant
-gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=
+gemini.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
 gemini.api.key=${GEMINI_KEY}
 ```
 
