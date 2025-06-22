@@ -1,13 +1,13 @@
 # Research Assistant Chrome Extension
 
+### ⚙️ Extension Side Panel
+![Side Panel](screenshots\Screenshot_side_panel.png)
+
 ### Selecting and Summarizing Text
-![Summarize Text](screenshots\Screenshot 2025-06-22 165607.png)
+![Summarize Text](screenshots\Screenshot_summarizing.png)
 
 ### ✍️ Writing and Saving Notes
-![Notes Section](screenshots\Screenshot 2025-06-22 165634.png)
-
-### ⚙️ Extension Side Panel
-![Side Panel](screenshots\Screenshot 2025-06-22 165536.png)
+![Notes Section](screenshots\Screenshot_saving_notes.png)
 
 ## Overview
 
