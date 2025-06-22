@@ -35,7 +35,7 @@ Additionally, the extension allows users to write and save notes locally within 
 3. Install Chrome Extension:
    - Open Chrome and go to `chrome://extensions/`
    - Enable **Developer mode** (toggle on the top right corner).
-   - Click **Load unpacked** and select the `extension` folder inside the project.
+   - Click **Load unpacked** and select the `src/main/resorces/static` folder inside the project.
 
 ## Configuration
 
